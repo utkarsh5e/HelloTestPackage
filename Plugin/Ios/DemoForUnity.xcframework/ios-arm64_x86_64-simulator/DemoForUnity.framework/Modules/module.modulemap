@@ -1,0 +1,11 @@
+framework module DemoForUnity {
+  umbrella header "DemoForUnity.h"
+
+  export *
+  module * { export * }
+}
+
+module DemoForUnity.Swift {
+  header "DemoForUnity-Swift.h"
+  requires objc
+}

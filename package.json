@@ -1,0 +1,14 @@
+{
+    "name": "com.hellopackage.hellotestpackage",
+    "version": "1.0.0",
+     "displayName": "Hello Test Package",
+     "description": "",
+     "unity" : "2022.2",
+     "dependencies": {
+
+     },
+     "keywords": ["android","ios"],
+     "author": {
+        "name": "Utkarsh singh"
+     }
+}

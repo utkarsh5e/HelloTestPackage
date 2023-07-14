@@ -1,0 +1,106 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DemoForUnity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DemoForUnity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Greetings",
+        "printedName": "Greetings",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "generateGreetMessage",
+            "printedName": "generateGreetMessage(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DemoForUnity9GreetingsC20generateGreetMessage4nameS2S_tFZ",
+            "mangledName": "$s12DemoForUnity9GreetingsC20generateGreetMessage4nameS2S_tFZ",
+            "moduleName": "DemoForUnity",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showToast",
+            "printedName": "showToast(activity:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12DemoForUnity9GreetingsC9showToast8activity7messageySo16UIViewControllerC_SStFZ",
+            "mangledName": "$s12DemoForUnity9GreetingsC9showToast8activity7messageySo16UIViewControllerC_SStFZ",
+            "moduleName": "DemoForUnity",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12DemoForUnity9GreetingsC",
+        "mangledName": "$s12DemoForUnity9GreetingsC",
+        "moduleName": "DemoForUnity",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
