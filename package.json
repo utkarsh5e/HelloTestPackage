@@ -7,6 +7,13 @@
      "dependencies": {
 
      },
+     "scopedRegistries": [{
+      "name": "com.hellopackage.hellotestpackage",
+      "url": "https://com.hellopackage.hellotestpackage",
+      "scopes": [
+        "com.company"
+      ]
+    }],
      "keywords": ["android","ios"],
      "author": {
         "name": "Utkarsh singh"
