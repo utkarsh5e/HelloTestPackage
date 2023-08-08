@@ -11,7 +11,7 @@
       "name": "com.hellopackage.hellotestpackage",
       "url": "https://github.com/utkarsh5e/HelloTestPackage.git",
       "scopes": [
-        "com.company"
+        "com.hellopackage"
       ]
     }],
      "keywords": ["android","ios"],
