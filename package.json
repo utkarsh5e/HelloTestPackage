@@ -5,7 +5,8 @@
      "description": "",
      "unity" : "2022.2",
      "dependencies": {
-
+      "com.littlebigfun.addressable-importer": "0.4.1",
+      "com.unity.addressables": "1.5.0"
      },
      "scopedRegistries": [{
       "name": "com.hellopackage.hellotestpackage",
