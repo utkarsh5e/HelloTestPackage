@@ -9,7 +9,7 @@
      },
      "scopedRegistries": [{
       "name": "com.hellopackage.hellotestpackage",
-      "url": "https://com.hellopackage.hellotestpackage",
+      "url": "https://github.com/utkarsh5e/HelloTestPackage.git",
       "scopes": [
         "com.company"
       ]
