@@ -1,20 +1,29 @@
 {
-    "name": "com.hellopackage.hellotestpackage",
-    "version": "1.1.0",
-     "displayName": "Hello Test Package",
-     "description": "",
-     "unity" : "2022.2",
-     "dependencies": {
-     },
-     "scopedRegistries": [{
+  "name": "com.hellopackage.hellotestpackage",
+  "version": "1.1.0",
+  "displayName": "Hello Test Package",
+  "description": "testing of package",
+  "unity": "2022.2",
+  "scopedRegistries": [
+    {
       "name": "com.hellopackage.hellotestpackage",
       "url": "https://github.com/utkarsh5e/HelloTestPackage.git",
       "scopes": [
         "com.hellopackage"
       ]
-    }],
-     "keywords": ["android","ios"],
-     "author": {
-        "name": "Utkarsh singh"
-     }
+    }
+  ],
+  "dependencies": {
+    
+  },
+  "keywords": [
+    "android",
+    "ios"
+  ],
+  "author": "Utkarsh singh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
