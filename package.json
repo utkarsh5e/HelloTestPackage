@@ -4,6 +4,9 @@
   "displayName": "Hello Test Package",
   "description": "testing of package",
   "unity": "2022.2",
+  "dependencies": {
+    
+  },
   "scopedRegistries": [
     {
       "name": "com.hellopackage.hellotestpackage",
@@ -13,9 +16,7 @@
       ]
     }
   ],
-  "dependencies": {
-    
-  },
+
   "keywords": [
     "android",
     "ios"
