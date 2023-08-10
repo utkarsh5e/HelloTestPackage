@@ -5,7 +5,6 @@
      "description": "",
      "unity" : "2022.2",
      "dependencies": {
-      "com.hellopackage.hellotestpackage": "1.1.0",
      },
      "scopedRegistries": [{
       "name": "com.hellopackage.hellotestpackage",
