@@ -10,7 +10,7 @@
   "scopedRegistries": [
     {
       "name": "com.hellopackage.hellotestpackage",
-      "url": "https://github.com/utkarsh5e/HelloTestPackage.git",
+      "url": "https://hellopackage.com/registry",
       "scopes": [
         "com.hellopackage"
       ]
