@@ -10,7 +10,7 @@
   "scopedRegistries": [
     {
       "name": "com.hellopackage.hellotestpackage",
-      "url": "https://hellopackage.com/registry",
+      "url": "https://registry.npmjs.org/",
       "scopes": [
         "com.hellopackage"
       ]
