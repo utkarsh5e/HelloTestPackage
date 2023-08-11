@@ -1,0 +1,26 @@
+name:CI
+
+on:
+  push:
+    branches: 
+    - main
+
+jobs:
+
+  release:
+    name:release
+    runs-on: ubuntu-latest  # For a list of available runner types, refer to
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Release
+      uses: cycjimmy/semantic-release-actions@v3
+      with:
+        extra_plugins: |
+          @semantic-release/changelog
+          @semantic-release/git
+        branch: main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHHUB_TOKEN }}
