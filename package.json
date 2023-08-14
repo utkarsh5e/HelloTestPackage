@@ -1,11 +1,11 @@
 {
   "name": "com.hellopackage.hellotestpackage",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "displayName": "Hello Test Package",
   "description": "testing of package",
   "unity": "2022.2",
   "dependencies": {
-      "@utkarsh5e/com.hellopackage.hellotestpackage": "1.1.0"
+    "@utkarsh5e/com.hellopackage.hellotestpackage": "1.1.0"
   },
   "scopedRegistries": [
     {
@@ -16,7 +16,6 @@
       ]
     }
   ],
-
   "keywords": [
     "android",
     "ios"
@@ -25,7 +24,4 @@
   "repository": {
     "url": "https://github.com/utkarsh5e/HelloTestPackage.git"
   }
-
-  
-
 }
